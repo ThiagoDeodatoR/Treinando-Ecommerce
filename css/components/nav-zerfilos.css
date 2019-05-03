@@ -1,0 +1,13 @@
+.nav-zerfilos {
+    font-size: 14px;
+}
+
+.action {
+    color: var(--color-first);
+    font-weight: 400; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.action.-active {
+    text-decoration: underline;
+}
