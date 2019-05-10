@@ -1,17 +1,21 @@
 .nav-zerfilos {
+    display: flex;
     font-size: 14px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: space-between;
 }
 
-.nav-zerfilos > .action {
+.nav-zerfilos > .alinks > .action {
     display: inline-block;
     position: relative;
     color: var(--color-first);
     font-weight: 400; 
     text-decoration: none;
     text-transform: uppercase;
-    margin-bottom: 10px;
 }
-.nav-zerfilos > .action::after{
+.nav-zerfilos > .alinks > .action::after{
     content: "";
     display: inline-block;
     position: absolute;
@@ -25,12 +29,16 @@
 
     transition: transform 200ms linear;
 }
-.nav-zerfilos > .action.-active::after {  
+.nav-zerfilos > .alinks > .action.-active::after {  
     transform: scaleX(0.45);
     transition-duration: 150ms;
 }
-.nav-zerfilos > .action:hover::after {
+.nav-zerfilos > .alinks > .action:hover::after {
     transform: scaleX(1);
+}
+
+.rsociais {
+    margin-right: 35%;
 }
 
 h1 {

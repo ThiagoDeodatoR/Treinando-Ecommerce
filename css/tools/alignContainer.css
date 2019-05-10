@@ -1,0 +1,6 @@
+.alignContainer {
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+    margin: 0 auto;
+}
